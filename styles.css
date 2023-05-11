@@ -1,0 +1,131 @@
+body {
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/FILE_A4142C-73FE08-A7FC02-E047F3-FD4C04-A2FEFB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+/* image sirve para establecer el fondo
+no repeat es para que la imagen sea unica y no se repita
+cover para que cobra toda la web */
+
+
+.navbar-brand {
+    margin-inline: 20px;
+    --bs-bg-opacity: 0;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+/* margin inline para generar margen en la linea
+inline block para los elementos del nav se pongan uno al lado del otro 
+text align para alinear  */
+
+.col-12.col-xl-6 {
+    display: inline-block;
+    text-align: center;
+padding: 75px;
+}
+/* padding para que se genere un espacio alrededor de las imagenes
+inline block para que los elementos se pongan al lado hasta cubrir la pantalla */
+
+ul {
+    padding-left: 2rem;
+}
+
+.medios {
+    padding: 0;
+    text-align: center;
+    
+    display: inline-block;
+}
+
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+/* para que el fondo sea opaco y tenga el mismo fondo el nav que la web en general */
+
+.contactme {
+    margin-top: 75px;}
+/* }para generar margenes de arriba */ */
+
+a {
+    color: white;
+}
+
+h1 {
+    margin-top: 5rem;
+}
+/* para generar margen arriba */
+
+h2 {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    height: 120px;
+}
+/* margin para los margenes
+height para cambiar altura */
+
+h4 {
+    margin-top: 2rem;
+}
+
+img {
+margin-top: 2rem;
+    width: 12em;
+    margin-bottom: 2rem;
+}
+/* margin para margen
+widht para cambiar el ancho */
+
+
+ .container {
+    margin-left: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;  
+    text-align: center;
+    margin-right: 160px;
+} 
+/* margin para margen
+display inline block para que se pongan los maximos elementos uno al lado del otro */
+
+
+.col-12.col-xl-4 {
+    text-align: center;
+    display: inline-block;
+}
+
+.row {
+    margin-left: 150px;
+}
+/* generar margen izq */
+
+.titulo {
+    margin-inline-start: 170px;
+}
+/* para generar margen en linea desde el inicio */
+
+.abme {
+    margin-top: 1rem;
+}
+
+.form-control {
+width: 30%;
+}
+/* widht para el ancho */
+
+.colorletra{ 
+    color: black;
+    display: inline-block;
+}
+/* color para cambiar el color de las letras  */
+
+
+.form-control {
+    width: 100%;
+}
+/* width para ancho */
